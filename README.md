@@ -1,16 +1,91 @@
-# React + Vite
+# GitHub Profile Analyzer 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application that analyzes GitHub user profiles and provides repository insights, profile statistics, and programming language distribution using the GitHub REST API.
 
-Currently, two official plugins are available:
+## Features ✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Search for any GitHub username
+- View profile details (name, bio, location, avatar)
+- Display public repository information
+- Show followers, following, and public repository statistics
+- Visualize programming language usage with interactive charts
+- Clean and responsive user interface
+- Real-time data fetching from GitHub API
 
-## React Compiler
+## Tech Stack 🛠️
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Axios
+- Recharts
+- CSS
+- GitHub REST API
+- Vite
 
-## Expanding the ESLint configuration
+## Project Preview 📌
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Installation & Setup ⚙️
+
+Clone the repository:
+
+git clone https://github.com/Anaghadevi-2004/github-profile-analyzer.git
+
+Navigate to the project folder:
+
+cd github-profile-analyzer
+
+Install dependencies:
+
+npm install
+
+Run the application:
+
+npm run dev
+
+Open in browser:
+
+http://localhost:5175
+Project Structure 📂
+github-profile-analyzer/
+│
+├── src/
+│   ├── components/
+│   │   ├── ProfileCard.jsx
+│   │   ├── RepoList.jsx
+│   │   ├── StatsCard.jsx
+│   │   └── LanguageChart.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── public/
+├── package.json
+├── package-lock.json
+└── README.md
+API Used 🔗
+
+GitHub REST API:
+
+User Profile:
+https://api.github.com/users/{Anaghadevi-2004}
+User Repositories:
+https://api.github.com/users/{Anaghadevi-2004}/repos
+Future Improvements 🚀
+Compare two GitHub profiles
+GitHub developer score
+Contribution heatmap
+Export analysis report as PDF
+Dark mode support
+Better filtering and sorting for repositories
+GitHub: https://github.com/Anaghadevi-2004
+
+
+### How to update it:
+
+In terminal:
+git add README.md
+git commit -m "Added project README"
+git push
+
+
