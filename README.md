@@ -10,7 +10,7 @@ A React-based web application that analyzes GitHub user profiles and provides re
 - Show followers, following, and public repository statistics
 - Visualize programming language usage with interactive charts
 - Clean and responsive user interface
-- Real-time data fetching from GitHub API
+- Real-time data fetching from GitHub API.
 
 ## Tech Stack 🛠️
 
